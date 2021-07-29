@@ -1,0 +1,43 @@
+/* global style  */
+header{
+    background-color: #264653;
+    color: white;
+    width: 100%;
+    height: 698px;
+}
+.custom-button{
+    background-color:  #E76F51;
+    color: white;
+    border-radius: 5px;
+}
+.login-button{
+    padding: 10px 24px; 
+   
+}
+.purchase-button{
+    width: 168px;
+    padding: 10px 46px;
+}
+.read-more-button{
+    color: #E76F51;
+    background-color: white;
+    width: 160px;
+    padding: 10px 25px;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+}
+.read-more-button-selected{
+    color: white;
+    background-color:  #E76F51;
+}
+.read-more-button:active{
+    cursor: pointer;
+    background-color: white;
+    color: #E76F51;
+}
+
+
+/* featured bike section style  */
+.grayscale-img{
+    filter: grayscale(100%);
+}
