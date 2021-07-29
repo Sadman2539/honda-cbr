@@ -7,13 +7,11 @@ body{
 header{
     background-color: #264653;
     color: white;
-    width: 100%;
     height: 698px;
 }
 footer{
     background-color: #0B0D17;
     color: white;
-    width: 100%;
     height: 447px;
 }
 
@@ -25,12 +23,18 @@ footer{
 }
 .login-button{
     padding: 10px 24px;
-
+    text-decoration: none;
    
 }
 .purchase-button{
     width: 168px;
     padding: 10px 46px;
+}
+.purchase-button:active, .login-button:active{
+    color: #E76F51;
+    background-color: white;
+    border: 1px solid #E76F51;
+    cursor: pointer;
 }
 .read-more-button{
     color: #E76F51;
@@ -61,6 +65,11 @@ footer{
 .coloured-text{
     color:  #E76F51;
 }
+.underlined-text{
+    color: #E76F51;
+  text-decoration: underline;
+}
+
 .checked{
     color: #E77C40;
 }
