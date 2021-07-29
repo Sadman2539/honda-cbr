@@ -14,9 +14,11 @@ header{
     background-color:  #E76F51;
     color: white;
     border-radius: 5px;
+    border: none;
 }
 .login-button{
-    padding: 10px 24px; 
+    padding: 10px 24px;
+
    
 }
 .purchase-button{
