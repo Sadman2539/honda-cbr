@@ -1,4 +1,9 @@
+/* import google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 /* global style  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header{
     background-color: #264653;
     color: white;
@@ -40,4 +45,13 @@ header{
 /* featured bike section style  */
 .grayscale-img{
     filter: grayscale(100%);
+}
+
+/* client review section  */
+
+.coloured-text{
+    color:  #E76F51;
+}
+.checked{
+    color: #E77C40;
 }
